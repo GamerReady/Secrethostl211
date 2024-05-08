@@ -6384,6 +6384,3 @@ end;
 
 loadMainUI();
 end)
-else
-    print("Player closed the GUI.")
-end
