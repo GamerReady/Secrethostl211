@@ -2164,10 +2164,7 @@ do
 								return;
 							end
 						end
-						game:GetService("StarterGui"):SetCore("SendNotification", {
-							Title = "Codex Android",
-							Text = "Invalid key."
-						});
+						changeTab(true);
 					end,
 					Name = "register", 
 					Position = UDim2.new(0.5, 6, 0.5, 6), 
